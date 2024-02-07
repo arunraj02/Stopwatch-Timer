@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+
+#timer-container{
+    margin: auto;
+    background-color: #e94f37;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1{
+    font-size: 56px;
+    font-weight: bold;
+    color: #f6f7eb;
+    margin: 40px 0;
+}
+
+#stopwatch{
+    display: flex;
+    background-color: #f6f7eb;
+    padding: 30px;
+    border-radius: 8px;
+    font-size: 48px;
+    font-weight: bold;
+    color: #393e41;  
+}
+
+.time{
+    padding: 0px 20px;
+}
+
+.time small{
+    font-size: 14px;
+    display: flex;
+}
+
+.time span{
+    width: 3rem;
+}
+
+#event-buttons{
+    display: flex;
+    padding: 48px;
+}
+
+#start  button{
+    padding: 12px 24px;
+    border-radius: 12px;
+    font-size: 18px;
+    background-color: #f6f7eb;
+    color: #e94f37;
+    border: none;
+    cursor: pointer;
+}
+
+#start{
+    padding: 0px 16px;
+}
+
+#start button:hover{
+    background-color: #3f88c5;
+    color: #f6f7eb;
+    transition: 0.4s ease-in-out;
+}
+
+#pause  button{
+    padding: 12px 24px;
+    border-radius: 12px;
+    font-size: 18px;
+    background-color: #f6f7eb;
+    color: #e94f37;
+    border: none;
+    cursor: pointer;
+}
+
+#pause{
+    padding: 0px 16px;
+}
+
+#pause button:hover{
+    background-color: #3f88c5;
+    color: #f6f7eb;
+    transition: 0.4s ease-in-out;
+}
+
+#reset  button{
+    padding: 12px 24px;
+    border-radius: 12px;
+    font-size: 18px;
+    background-color: #f6f7eb;
+    color: #e94f37;
+    border: none;
+    cursor: pointer;
+}
+
+#reset{
+    padding: 0px 16px;
+}
+
+#reset button:hover{
+    background-color: #3f88c5;
+    color: #f6f7eb;
+    transition: 0.4s ease-in-out;
+}
